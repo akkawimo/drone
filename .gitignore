@@ -1,3 +1,2 @@
-coco/annotations/
-coco/images/train2014.zip
-coco/images/val2014.zip
+data/coco/annotations/
+data/coco/images/

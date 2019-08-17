@@ -2,8 +2,8 @@
 # CREDIT: https://github.com/pjreddie/darknet/tree/master/scripts/get_coco_dataset.sh
 
 # Clone COCO API
-git clone https://github.com/pdollar/coco && cd coco
-
+#git clone https://github.com/pdollar/coco && cd coco
+cd coco
 # Download Images
 mkdir images && cd images
 wget -c https://pjreddie.com/media/files/train2014.zip

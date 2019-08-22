@@ -1,0 +1,6 @@
+classes=2
+train=./data/plane_drone_train.txt
+valid=./data/plane_drone_train.txt
+names=data/plane-drone.names
+backup=backup/
+eval=coco

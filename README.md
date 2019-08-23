@@ -6,9 +6,9 @@
 
 **Requirments**
 
-`!pip install cython`
-`!pip install nvidia-ml-py3`
-`!pip install -U -r requirements.txt`
+-`!pip install cython`
+-`!pip install nvidia-ml-py3`
+-`!pip install -U -r requirements.txt`
 
 **Training**
 

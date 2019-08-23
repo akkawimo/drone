@@ -1,6 +1,6 @@
 **Jupyter Notebook** 
 
-Reproduce results by running the deeplearning notebook inside of transfer folder.
+Reproduce results by running the deep_learning.ipynb in drone/transfer.
 
 # Training
 

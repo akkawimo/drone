@@ -2,7 +2,7 @@
 
 Reproduce results by running the deep_learning.ipynb in drone/transfer.
 
-# Training
+**Training**
 
 **Start Training:** `sudo python3 train.py --cfg cfg/plane-drone.cfg --epochs 10 --batch-size 60 --data data/plane_drone_val.data && mv results.txt results_plane_drone_img.txt` Each epoch trains on 500 images from the train and validate airplane and drone sets.
 
@@ -29,7 +29,7 @@ HS**V** Intensity | +/- 50%
 
 'Namespace(batch_size=16, cfg='cfg/plane-drone.cfg', conf_thres=0.001, data='data/plane_drone_val.data', img_size=416, iou_thres=0.5, nms_thres=0.5, save_json=False, weights='weights/best.pt')'
 
-# Inference
+**Inference**
 for detecting both small and large objects using pre-trained weights
 **YOLOv3-SPP: Spatial-full-model- 3 yolo layers:** `python3 detect.py --cfg cfg/yolov3-spp.cfg --weights weights/yolov3-spp.weights`
 

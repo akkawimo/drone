@@ -33,9 +33,9 @@ HS**V** Intensity | +/- 50%
 
 - PyTorch weights are in `*.pt` format
 
-- '!sudo python3 test.py --data data/plane_drone_train_val.data --cfg cfg/plane-drone.cfg --weights weights/best.pt --img-size 416 --batch-size 20'
+- `!sudo python3 test.py --data data/plane_drone_train_val.data --cfg cfg/plane-drone.cfg --weights weights/best.pt --img-size 416 --batch-size 20`
 
-- 'Namespace(batch_size=30, cfg='cfg/plane-drone.cfg', conf_thres=0.001, data='data/plane_drone_train_val.data', img_size=416, iou_thres=0.5, nms_thres=0.5, save_json=False, weights='weights/best.pt')'
+- `Namespace(batch_size=30, cfg='cfg/plane-drone.cfg', conf_thres=0.001, data='data/plane_drone_train_val.data', img_size=416, iou_thres=0.5, nms_thres=0.5, save_json=False, weights='weights/best.pt')`
 
 **Inference**
 - run`!python3 detect.py`

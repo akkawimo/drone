@@ -32,7 +32,7 @@ HS**V** Intensity | +/- 50%
 # Inference
 for detecting both small and large objects using pre-trained weights
 **YOLOv3-SPP: Spatial-full-model- 3 yolo layers:** `python3 detect.py --cfg cfg/yolov3-spp.cfg --weights weights/yolov3-spp.weights`
-<img src="https://user-images.githubusercontent.com/26833433/54747926-e051ff00-4bd8-11e9-8b5d-93a41d871ec7.jpg" width="600">
+
 
 - `weights/yolov3.weights` tests official YOLOv3 weights.
 - `weights/last.pt` tests most recent checkpoint.

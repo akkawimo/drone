@@ -1,6 +1,8 @@
 **Jupyter Notebook** 
 
-Reproduce results by running the deep_learning.ipynb in drone/transfer.
+- clone repo
+- sudo chmod -R 777 * from root
+- Reproduce results by running the deep_learning.ipynb in drone/transfer.
 
 **Training**
 

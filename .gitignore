@@ -1,4 +1,7 @@
-#coco/annotations/
+coco/annotations/instances_train2014.json
+coco/annotations/instances_val2014.json
+coco/annotations/instances_train2014.zip
 coco/images/
 transfer/weights/
 transfer/shell_scripts/coco/
+transfer/inference_output/

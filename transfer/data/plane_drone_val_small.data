@@ -1,5 +1,0 @@
-classes=2
-train=./data/plane_drone_train_small.txt
-valid=./data/plane_drone_val_small.txt
-names=data/plane-drone.names
-backup=backup/
